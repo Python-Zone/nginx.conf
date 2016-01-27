@@ -4,7 +4,7 @@ upstream pythonzone_bowenpay_backend {
 
 server {
     listen   80;
-	server_name pythonzone.bowenpay.com;
+	server_name py.bowenpay.com;
 
     location ^~ /.git {
         deny all;
